@@ -1,0 +1,1414 @@
+{
+  "questions": [
+    {
+      "question": "Brass gets discoloured in air because of the presence of which of the following gases in air?",
+      "options": {
+        "A": "Oxygen",
+        "B": "Hydrogen sulphide",
+        "C": "Carbon dioxide",
+        "D": "Nitrogen"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following is a non metal that remains liquid at room temperature?",
+      "options": {
+        "A": "Phosphorous",
+        "B": "Bromine",
+        "C": "Chlorine",
+        "D": "Helium"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Chlorophyll is a naturally occurring chelate compound in which central metal is",
+      "options": {
+        "A": "copper",
+        "B": "magnesium",
+        "C": "iron",
+        "D": "calcium"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following is used in pencils?",
+      "options": {
+        "A": "Graphite",
+        "B": "Silicon",
+        "C": "Charcoal",
+        "D": "Phosphorous"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Which of the following metals forms an amalgam with other metals?",
+      "options": {
+        "A": "Tin",
+        "B": "Mercury",
+        "C": "Lead",
+        "D": "Zinc"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Chemical formula for water is",
+      "options": {
+        "A": "NaAlO2",
+        "B": "H2O",
+        "C": "Al2O3",
+        "D": "CaSiO3"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The gas usually filled in the electric bulb is",
+      "options": {
+        "A": "nitrogen",
+        "B": "hydrogen",
+        "C": "carbon dioxide",
+        "D": "oxygen"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Washing soda is the common name for",
+      "options": {
+        "A": "Sodium carbonate",
+        "B": "Calcium bicarbonate",
+        "C": "Sodium bicarbonate",
+        "D": "Calcium carbonate"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Quartz crystals normally used in quartz clocks etc. is chemically",
+      "options": {
+        "A": "silicon dioxide",
+        "B": "germanium oxide",
+        "C": "Both A and B",
+        "D": "sodium silicate"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Which of the gas is not known as green house gas?",
+      "options": {
+        "A": "Methane",
+        "B": "Nitrous oxide",
+        "C": "Carbon dioxide",
+        "D": "Hydrogen"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "Bromine is a",
+      "options": {
+        "A": "black solid",
+        "B": "red liquid",
+        "C": "colourless gas",
+        "D": "highly inflammable gas"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The hardest substance available on earth is",
+      "options": {
+        "A": "Gold",
+        "B": "Iron",
+        "C": "Diamond",
+        "D": "Platinum"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "The variety of coal in which the deposit contains recognisable traces of the original plant material is ?",
+      "options": {
+        "A": "bitumen",
+        "B": "anthracite",
+        "C": "lignite",
+        "D": "peat"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "Tetraethyl lead is used as",
+      "options": {
+        "A": "pain killer",
+        "B": "fire extinguisher",
+        "C": "mosquito repellent",
+        "D": "petrol additive"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "Which of the following is used as a lubricant?",
+      "options": {
+        "A": "Graphite",
+        "B": "Silica",
+        "C": "Iron Oxide",
+        "D": "Diamond"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "The inert gas which is substituted for nitrogen in the air used by deep sea divers for breathing, is",
+      "options": {
+        "A": "Argon",
+        "B": "Xenon",
+        "C": "Helium",
+        "D": "Krypton"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "The gases used in different types of welding would include",
+      "options": {
+        "A": "oxygen and hydrogen",
+        "B": "O2,H2,N2 and acetylene",
+        "C": "oxygen, acetylene and argon",
+        "D": "oxygen and acetylene"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "The property of a substance to absorb moisture from the air on exposure is called",
+      "options": {
+        "A": "osmosis",
+        "B": "deliquescence",
+        "C": "efflorescence",
+        "D": "desiccation"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "In which of the following activities silicon carbide is used?",
+      "options": {
+        "A": "Making cement and glass",
+        "B": "Disinfecting water of ponds",
+        "C": "cutting very hard substances",
+        "D": "Making casts for statues"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "The average salinity of sea water is",
+      "options": {
+        "A": "3%",
+        "B": "3.5%",
+        "C": "2.5%",
+        "D": "2%"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Galvanised iron sheets have a coating of",
+      "options": {
+        "A": "lead",
+        "B": "chromium",
+        "C": "zinc",
+        "D": "tin"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "The group of metals Fe, Co, Ni may best called as",
+      "options": {
+        "A": "transition metals",
+        "B": "main group metals",
+        "C": "alkali metals",
+        "D": "rare metals"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Heavy water is",
+      "options": {
+        "A": "deuterium oxide",
+        "B": "PH7",
+        "C": "rain water",
+        "D": "tritium oxide"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "The chemical (ethyl mercaptan) added to the otherwise odourless LPG cooking gas for imparting a detectable smell to the gas is a compound of",
+      "options": {
+        "A": "bromine",
+        "B": "fluorine",
+        "C": "chlorine",
+        "D": "sulphur"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "The element common to all acids is",
+      "options": {
+        "A": "hydrogen",
+        "B": "carbon",
+        "C": "sulphur",
+        "D": "oxygen"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Non stick cooking utensils are coated with",
+      "options": {
+        "A": "Teflon",
+        "B": "PVC",
+        "C": "black paint",
+        "D": "polystyrene"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Monazite is an ore of",
+      "options": {
+        "A": "titanium",
+        "B": "zirconium",
+        "C": "iron",
+        "D": "thorium"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "Carbon, diamond and graphite are together called",
+      "options": {
+        "A": "allotropes",
+        "B": "isomers",
+        "C": "isomorphs",
+        "D": "isotopes"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Potassium nitrate is used in",
+      "options": {
+        "A": "medicine",
+        "B": "fertiliser",
+        "C": "salt",
+        "D ": "glass"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Permanent hardness of water may be removed by the addition of",
+      "options": {
+        "A": "sodium carbonate",
+        "B": "alum",
+        "C": "potassium permanganate",
+        "D": "lime"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Soda water contains",
+      "options": {
+        "A": "carbonic acid",
+        "B": "sulphuric acid",
+        "C": "carbon dioxide",
+        "D": "nitrous acid"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "The most important ore of aluminium is",
+      "options": {
+        "A": "galena",
+        "B": "calamine",
+        "C": "calcite",
+        "D": "bauxite"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "Most soluble in water is",
+      "options": {
+        "A": "camphor",
+        "B": "sulphur",
+        "C": "common salt",
+        "D": "sugar"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "Which of the following was to be discovered first in the chromospheres of the sun?",
+      "options": {
+        "A": "Krypton",
+        "B": "Xenon",
+        "C": "Neon",
+        "D": "Helium"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "Which of the following is in liquid form at room temperature?",
+      "options": {
+        "A": "Lithium",
+        "B": "Sodium",
+        "C": "Francium",
+        "D": "Cerium"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Sodium metal is kept under",
+      "options": {
+        "A": "petrol",
+        "B": "alcohol",
+        "C": "water",
+        "D": "kerosene"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "Which of the following are the ingredients of gun metal?",
+      "options": {
+        "A": "Iron, Zinc, Titanium",
+        "B": "Iron, tin",
+        "C": "Iron, Brass, Tin",
+        "D": "Copper, Tin"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "From which mineral is radium obtained?",
+      "options": {
+        "A": "Rutile",
+        "B": "Haematite",
+        "C": "Limestone",
+        "D": "Pitchblende"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "What is laughing gas?",
+      "options": {
+        "A": "Nitrous Oxide",
+        "B": "Carbon monoxide",
+        "C": "Sulphur dioxide",
+        "D": "Hydrogen peroxide"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Actinides are the elements with atomic numbers from",
+      "options": {
+        "A": "97 to 104",
+        "B": "101 to 115",
+        "C": "89 to 103",
+        "D": "36 from 43"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "The two elements that are frequently used for making transistors are",
+      "options": {
+        "A": "boron and aluminium",
+        "B": "silicon and germanium",
+        "C": "iridium and tungsten",
+        "D": "niobium and columbium"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The filament of an electric bulb is made of",
+      "options": {
+        "A": "tungsten",
+        "B": "nichrome",
+        "C": "graphite",
+        "D": "iron"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Diamond is an allotropic form of",
+      "options": {
+        "A": "germanium",
+        "B": "carbon",
+        "C": "silicon",
+        "D": "sulphur"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "In fireworks, the green flame is produced because of",
+      "options": {
+        "A": " sodium",
+        "B": "barium",
+        "C": "mercury",
+        "D": "potassium"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Permanent hardness of water can be removed by adding",
+      "options": {
+        "A": "chlorine",
+        "B": "washing soda",
+        "C": "potassium permanganate",
+        "D": "bleaching powder"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Marsh gas is",
+      "options": {
+        "A": "nitrogen",
+        "B": "ethane",
+        "C": "methane",
+        "D": "hydrogen"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "LPG consists of mainly",
+      "options": {
+        "A": "methane, ethane and hexane",
+        "B": "ethane, hexane and nonane",
+        "C": "methane, hexane and nonane",
+        "D": "methane, butane and propane"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "Air is a/an",
+      "options": {
+        "A": "compound",
+        "B": "element",
+        "C": "electrolyte",
+        "D": "mixture"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "Production of chlorofluorocarbons (CFC) gas which is proposed to be banned in India, is used in which of the following domestic products?",
+      "options": {
+        "A": "Television",
+        "B": "Refrigerator",
+        "C": "Tube light",
+        "D": "Cooking gas"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Balloons are filled with",
+      "options": {
+        "A": "nitrogen",
+        "B": "helium",
+        "C": "oxygen",
+        "D": "argon"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following does not contain a coinage metal?",
+      "options": {
+        "A": "Silver and Gold",
+        "B": "Zinc and Gold",
+        "C": "Copper and Silver",
+        "D": "Copper and Gold"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which metal pollute the air of a big city?",
+      "options": {
+        "A": "Copper",
+        "B": "Chromium",
+        "C": "Lead",
+        "D": "Cadmium"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Bell metal is an alloy of",
+      "options": {
+        "A": "nickel and copper",
+        "B": "zinc and copper",
+        "C": "brass and nickel",
+        "D": "tin and copper"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "Water is a good solvent of ionic salts because",
+      "options": {
+        "A": "of high specific heat",
+        "B": "has no colour",
+        "C": "has a high dipole moment",
+        "D": "has a high boiling point"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Which of the following is not an isotope of hydrogen?",
+      "options": {
+        "A": "Tritium",
+        "B": "Deuterium",
+        "C": "Protium",
+        "D": "Yttrium"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "Which of the following is the lightest metal?",
+      "options": {
+        "A": "Mercury",
+        "B": "Lithium",
+        "C": "Lead",
+        "D": "Silver"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following metals remain in liquid for under normal conditions?",
+      "options": {
+        "A": "Radium",
+        "B": "Zinc",
+        "C": "Uranium",
+        "D": "Mercury"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "Which of the following is an element?",
+      "options": {
+        "A": "Ruby",
+        "B": "Sapphire",
+        "C": "Emerald",
+        "D": "Diamond"
+      },
+      "answer": " D"
+    },
+    {
+      "question": "What is the unit for measuring the amplitude of a sound?",
+      "options": {
+        "A": "Decibel",
+        "B": "Coulomb",
+        "C": "Hum",
+        "D": "Cycles"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Reading of a barometer going down is an indication of",
+      "options": {
+        "A": "snow",
+        "B": "storm",
+        "C": "intense heat",
+        "D": "rainfall"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "Decibel is the unit for",
+      "options": {
+        "A": "speed of light",
+        "B": "radio wave frequency",
+        "C": "intensity of sound",
+        "D": "intensity of heat"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "One fathom is equal to",
+      "options": {
+        "A": "6 feet",
+        "B": "6 meters",
+        "C": "60 feet",
+        "D": "100 cm"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Fathom is the unit of",
+      "options": {
+        "A": "sound",
+        "B": "depth",
+        "C": "frequency",
+        "D": "distance"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Light year is a measurement of",
+      "options": {
+        "A": "speed of aeroplanes",
+        "B": "speed of light",
+        "C": "Stellar distances",
+        "D": "speed of rockets"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Very small time intervals are accurately measure by",
+      "options": {
+        "A": "White dwarfs",
+        "B": "Quartz clocks",
+        "C": "Atomic clocks",
+        "D": "Pulsars"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "One kilometre is equal to how many miles?",
+      "options": {
+        "A": "0.84",
+        "B": "0.5",
+        "C": "1.6",
+        "D": "0.62"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "One horse power is equal to",
+      "options": {
+        "A": "746 watts",
+        "B": "748 watts",
+        "C": "756 watts",
+        "D": "736 watts"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "'Bar' is the unit of",
+      "options": {
+        "A": "temperature",
+        "B": "heat",
+        "C": "atmospheric pressure",
+        "D": "current"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "One Joule is equal to",
+      "options": {
+        "A": "105 ergs",
+        "B": "103 ergs",
+        "C": "107 ergs",
+        "D": "1011 ergs"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Kilowatt is a unit to measure",
+      "options": {
+        "A": "work",
+        "B": "power",
+        "C": "electricity",
+        "D": "current"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Electric current is measure by",
+      "options": {
+        "A": "commutator",
+        "B": "anemometer",
+        "C": "ammeter",
+        "D": "voltmeter"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "A chronometer measures",
+      "options": {
+        "A": "colour contrast",
+        "B": "sound waves",
+        "C": "time",
+        "D": "water waves"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Nautical mile is a unit of distance used in",
+      "options": {
+        "A": "navigation",
+        "B": "road mile",
+        "C": "astronomy",
+        "D": "measuring the boundaries of a nation"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Knot is a unit of speed of which of the following?",
+      "options": {
+        "A ": "Aeroplane",
+        "B": "Light waves",
+        "C": "Ship",
+        "D": "Sound waves"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Which of the following is used as a moderator in nuclear reactor?",
+      "options": {
+        "A": "Thorium",
+        "B": "Graphite",
+        "C": "Radium",
+        "D": "Ordinary water"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which among the following is a positively charged particle emitted by a radioactive element?",
+      "options": {
+        "A": "Beta ray",
+        "B": "Alpha ray",
+        "C": "Cathode ray",
+        "D": "Gamma ray"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Atoms are composed of",
+      "options": {
+        "A": "electrons and protons",
+        "B": "electrons only",
+        "C": "protons only",
+        "D": "electrons and nuclei"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "Isotopes are separated by",
+      "options": {
+        "A": "crystallisation",
+        "B": "sublimation",
+        "C": "distillation",
+        "D": "filtration"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "The wavelength of X-rays is of the order of",
+      "options": {
+        "A": "10 micron",
+        "B": "1 angstrom",
+        "C": "1 cm",
+        "D": "1 m"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Mesons are found in",
+      "options": {
+        "A": "Laser beam",
+        "B": "X-rays",
+        "C": "Gamma rays",
+        "D": "Cosmic rays"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "Which radioactive pollutant has recently drawn to public, due to its occurrence in the building material?",
+      "options": {
+        "A": "Thorium",
+        "B": "Radium",
+        "C": "Plutonium",
+        "D": "Radan"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Which of the following shows the masses of the three elementary particles in decreasing order?",
+      "options": {
+        "A": "Leptons, Baryons, Mesons",
+        "B": "Mesons, Baryons, Leptons",
+        "C": "Baryons, Mesons, Leptons",
+        "D": "Leptons, Mesons Baryons"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "What is the wavelength of visible spectrum?",
+      "options": {
+        "A": "8500 - 9800 angstrom",
+        "B": "7800 - 8000 angstrom",
+        "C": "3900 - 7600 angstrom",
+        "D": "1300 - 3000 angstrom"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Which of the following has a least penetrating power?",
+      "options": {
+        "A": "All have same penetrating power",
+        "B": "Beta Particles",
+        "C": "Alpha particles",
+        "D": "Gamma rays"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "The isotope of uranium capable of sustaining chain reaction is",
+      "options": {
+        "A": "U-235",
+        "B": "U-245",
+        "C": "U-239",
+        "D": "U-238"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "The age of most ancient geological formations is estimated by",
+      "options": {
+        "A": "Ra - Si method",
+        "B": "Potassium - argon method",
+        "C": "C14 method",
+        "D": "Uranium - lead method"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "Who suggested that most of the mass of the atom is located in the nucleus?",
+      "options": {
+        "A": "Thompson",
+        "B": "Bohr",
+        "C": "Rutherford",
+        "D": "Einstein"
+      },
+      "answer": "C"
+    },
+    {
+      "question ": "In an atomic nucleus, neutrons and protons are held together by",
+      "options": {
+        "A": "gravitational forces",
+        "B": "exchange forces",
+        "C": "coulombic forces",
+        "D": "magnetic forces"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "'No two electrons in an atom can have the same set of four quantum numbers' is",
+      "options": {
+        "A": "Newton's law",
+        "B": "Bohr's law",
+        "C": "Aufbau principle",
+        "D": "Pauli's exclusion principle"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "According to Avogadro's Hypothesis, the smallest particle of an element or a compound, that can exist independently, is called ____ .",
+      "options": {
+        "A": "a molecule",
+        "B": "a cation",
+        "C": "an anion",
+        "D": "an atom"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Nuclear fission is caused by the impact of",
+      "options": {
+        "A": "neutron",
+        "B": "proton",
+        "C": "deuteron",
+        "D": "electron"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Which of the following rays are more penetrating?",
+      "options": {
+        "A": "Beta rays",
+        "B": "Alpha rays",
+        "C": "Gamma rays",
+        "D": "X-rays"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "How many colours the sunlight spectrum has?",
+      "options": {
+        "A": "Three",
+        "B": "Seven",
+        "C": "Four",
+        "D": "Five"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which is/are the important raw material(s) required in cement industry?",
+      "options": {
+        "A": "Gypsum and Clay",
+        "B": "Clay",
+        "C": "Limestone and Clay",
+        "D": "Limestone"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Which type of fire extinguisher is used for petroleum fire?",
+      "options": {
+        "A": "Powder type",
+        "B": "Liquid type",
+        "C": "Soda acid type",
+        "D": "Foam type"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Which of the following is commonly called a 'polyamide'?",
+      "options": {
+        "A": "Terylene",
+        "B": "Nylon",
+        "C": "Rayon",
+        "D": "Orlon"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Epoxy resins are used as",
+      "options": {
+        "A": "detergents",
+        "B": "insecticides",
+        "C": "adhesives",
+        "D": "moth repellents"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Detergents used for cleaning clothes and utensils contain?",
+      "options": {
+        "A": "bicarbonates",
+        "B": "bismuthates",
+        "C": "sulphonates",
+        "D": "nitrates"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Which of the following is used for removing air bubbles from glass during its manufacture?",
+      "options": {
+        "A": "Arsenous oxide",
+        "B": "Potassium carbonate",
+        "C": "Soda ash",
+        "D": "Feldspar"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Which of the following is a protein?",
+      "options": {
+        "A": "Natural rubber",
+        "B": "Starch",
+        "C": "Cellulose",
+        "D": "None of these"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Wood is the main raw material for the manufacture of",
+      "options": {
+        "A": "paint",
+        "B": "paper",
+        "C": "ink",
+        "D": "gun powder"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Rayon is chemically",
+      "options": {
+        "A": "cellulose",
+        "B": "pectin",
+        "C": "glucose",
+        "D": "amylase"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Optic fibres are mainly used for which of the following?",
+      "options": {
+        "A": "Musical instruments",
+        "B": "Food industry",
+        "C": "Weaving",
+        "D": "Communication"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "The major ingredient of leather is",
+      "options": {
+        "A": "collagen",
+        "B": "carbohydrate",
+        "C": "polymer",
+        "D": "nucleic acid"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "What are the soaps?",
+      "options": {
+        "A": "Salts of silicates",
+        "B": "Mixture (glycerol and alcohols)",
+        "C": "Sodium or potassium salts",
+        "D": "Esters of heavy fatty acids"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "In vulcanisation, natural rubber is heated with",
+      "options": {
+        "A": "Carbon",
+        "B": "Silicon",
+        "C": "Sulphur",
+        "D": "Phosphorous"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Deep blue colour is imparted to glass by the presence of",
+      "options": {
+        "A": "cupric oxide",
+        "B": "nickel oxide",
+        "C": "cobalt oxide",
+        "D": "iron oxide"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Glass is made of the mixture of",
+      "options": {
+        "A": "quartz and mica",
+        "B": "sand and silicates",
+        "C": "salt and quartz",
+        "D": "sand and salt"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The vast resources of unutilised natural gas can be used in the production of",
+      "options": {
+        "A": "graphite",
+        "B": "Synthetic petroleum",
+        "C": "fertilisers",
+        "D": "carbide"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Paper is manufactured by",
+      "options": {
+        "A": "Wood and resin",
+        "B": "Wood,Na and bleaching powder",
+        "C": "Wood,Ca,H2S and resin",
+        "D": "Wood and bleaching powder"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Soap is a mixture of sodium or potassium salts of",
+      "options": {
+        "A": "dicarboxylic acids",
+        "B": "monocarboxylic acids",
+        "C": "glycerol",
+        "D": "tricarboxylic acids"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The type of glass used in making lenses and prisms is",
+      "options": {
+        "A": "jena glass",
+        "B": "soft glass",
+        "C": "pyrex glass",
+        "D": "flint glass"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "Which one of the following is the petroleum wax?",
+      "options": {
+        "A": "Paraffin wax",
+        "B": "Jonoba wax",
+        "C": "Carnauba wax",
+        "D": "Bees wax"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Brass gets discoloured in air because of the presence of which of the following gases in air?",
+      "options": {
+        "A": "Oxygen",
+        "B": "Hydrogen sulphide",
+        "C": "Carbon dioxide",
+        "D": "Nitrogen"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following is a non metal that remains liquid at room temperature?",
+      "options": {
+        "A": "Phosphorous",
+        "B": "Bromine",
+        "C": "Chlorine",
+        "D": "Helium"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Chlorophyll is a naturally occurring chelate compound in which central metal is",
+      "options": {
+        "A": "copper",
+        "B": "magnesium",
+        "C": "iron",
+        "D": "calcium"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following is used in pencils?",
+      "options": {
+        "A": "Graphite",
+        "B": "Silicon",
+        "C": "Charcoal",
+        "D": "Phosphorous"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Which of the following metals forms an amalgam with other metals?",
+      "options": {
+        "A": "Tin",
+        "B": "Mercury",
+        "C": "Lead",
+        "D": "Zinc"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Chemical formula for water is",
+      "options": {
+        "A": "NaAlO2",
+        "B": "H2O",
+        "C": "Al2O3",
+        "D": "CaSiO3"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The gas usually filled in the electric bulb is",
+      "options": {
+        "A": "nitrogen",
+        "B": "hydrogen",
+        "C": "carbon dioxide",
+        "D": "oxygen"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Washing soda is the common name for",
+      "options": {
+        "A": "Sodium carbonate",
+        "B": "Calcium bicarbonate",
+        "C": "Sodium bicarbonate",
+        "D": "Calcium carbonate"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Quartz crystals normally used in quartz clocks etc. is chemically",
+      "options": {
+        "A": "silicon dioxide",
+        "B": "germanium oxide",
+        "C": "Both A and B",
+        "D": "sodium silicate"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Which of the gas is not known as green house gas?",
+      "options": {
+        "A": "Methane",
+        "B": "Nitrous oxide",
+        "C": "Carbon dioxide",
+        "D": "Hydrogen"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "Bromine is a",
+      "options": {
+        "A": "black solid",
+        "B": "red liquid",
+        "C": "colourless gas",
+        "D": "highly inflammable gas"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The hardest substance available on earth is",
+      "options": {
+        "A": "Gold",
+        "B": "Iron",
+        "C": "Diamond",
+        "D": "Platinum"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "The variety of coal in which the deposit contains recognisable traces of the original plant material is ?",
+      "options": {
+        "A": "bitumen",
+        "B": "anthracite",
+        "C": "lignite",
+        "D": "peat"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "Tetraethyl lead is used as",
+      "options": {
+        "A": "pain killer",
+        "B": "fire extinguisher",
+        "C": "mosquito repellent",
+        "D": "petrol additive"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "Which of the following is used as a lubricant?",
+      "options": {
+        "A": "Graphite",
+        "B": "Silica",
+        "C": "Iron Oxide",
+        "D": "Diamond"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "The inert gas which is substituted for nitrogen in the air used by deep sea divers for breathing, is",
+      "options": {
+        "A": "Argon",
+        "B": "Xenon",
+        "C": "Helium",
+        "D": "Krypton"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "The gases used in different types of welding would include",
+      "options": {
+        "A": "oxygen and hydrogen",
+        "B": "O2,H2,N2 and acetylene",
+        "C": "oxygen, acetylene and argon",
+        "D": "oxygen and acetylene"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "The property of a substance to absorb moisture from the air on exposure is called",
+      "options": {
+        "A": "osmosis",
+        "B": "deliquescence",
+        "C": "efflorescence",
+        "D": "desiccation"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "In which of the following activities silicon carbide is used?",
+      "options": {
+        "A": "Making cement and glass",
+        "B": "Disinfecting water of ponds",
+        "C": "cutting very hard substances",
+        "D": "Making casts for statues"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "The average salinity of sea water is",
+      "options": {
+        "A": "3%",
+        "B": "3.5%",
+        "C": "2.5%",
+        "D": "2%"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Galvanised iron sheets have a coating of",
+      "options": {
+        "A": "lead",
+        "B": "chromium",
+        "C": "zinc",
+        "D": "tin"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "The group of metals Fe, Co, Ni may best called as",
+      "options": {
+        "A": "transition metals",
+        "B": "main group metals",
+        "C": "alkali metals",
+        "D": "rare metals"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Heavy water is",
+      "options": {
+        "A": "deuterium oxide",
+        "B": "PH7",
+        "C": "rain water",
+        "D": "tritium oxide"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "The chemical (ethyl mercaptan) added to the otherwise odourless LPG cooking gas for imparting a detectable smell to the gas is a compound of",
+      "options": {
+        "A": "bromine",
+        "B": "fluorine",
+        "C": "chlorine",
+        "D": "sulphur"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "The element common to all acids is",
+      "options": {
+        "A": "hydrogen",
+        "B": "carbon",
+        "C": "sulphur",
+        "D": "oxygen"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Non stick cooking utensils are coated with",
+      "options": {
+        "A": "Teflon",
+        "B": "PVC",
+        "C": "black paint",
+        "D": "polystyrene"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Monazite is an ore of",
+      "options": {
+        "A": "titanium",
+        "B": "zirconium",
+        "C": "iron",
+        "D": "thorium"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "Carbon, diamond and graphite are together called",
+      "options": {
+        "A": "allotropes",
+        "B": "isomers",
+        "C": "isomorphs",
+        "D": "isotopes"
+      },
+      "answer": "A"
+    }
+  ]
+}

@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QuizZania</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* Global Styles */
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+        background: #222;
+        color: #fff;
+      }
+
+      .quiz-container {
+        display: flex;
+        flex-direction: column;
+        max-width: 80vw;
+        margin: 4em auto;
+        padding: 20px;
+        background: #333;
+        border-radius: 1em;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        position: relative;
+      }
+
+      .quiz-header {
+        text-align: center;
+        position: relative;
+      }
+
+      .quiz-title {
+        font-family: "Montserrat", sans-serif;
+        font-size: 3rem;
+        color: #e6b800;
+      }
+
+      .user-name {
+        font-size: 1.2rem;
+        color: #ccc;
+        position: absolute;
+        right: 0;
+        top: -1%;
+      }
+
+      .timer-container {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 3em;
+        min-width: 3em;
+        border: #222 solid;
+        border-width: 0.3em;
+        padding: 0.2em;
+        border-radius: 50%;
+      }
+
+      /* .circle-timer {
+        transform: rotate(-90deg);
+      } */
+
+      .timer {
+        font-size: 2rem;
+        font-family: "Montserrat", sans-serif;
+        color: #fff;
+      }
+
+      .power-ups {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+      }
+
+      .power-up-btn {
+        background: none;
+        border: none;
+        cursor: pointer;
+      }
+
+      .quiz-content {
+        text-align: center;
+      }
+
+      .question-container {
+        margin: 1em auto;
+      }
+
+      .question-number {
+        font-size: 1.5rem;
+        color: #e6b800;
+      }
+
+      .question-text {
+        font-size: 1.4rem;
+        font-weight: 600;
+        line-height: 1.5;
+        max-width: 600px;
+        margin: 0 auto;
+      }
+
+      .options-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+      }
+
+      .option-btn {
+        background: #13dbb3a8;
+        border: none;
+        padding: 15px 30px;
+        height: 3em;
+        font-size: 1.1rem;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background 0.3s ease;
+      }
+
+      .option-btn:hover {
+        background: #4cae4c;
+      }
+
+      .quiz-footer {
+        text-align: center;
+      }
+
+      .score-container {
+        font-size: 1.2rem;
+      }
+
+      .score {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #e6b800;
+      }
+
+      /* Responsive Styles */
+      @media screen and (max-width: 768px) {
+        .quiz-title {
+          font-size: 2rem;
+        }
+
+        .user-name {
+          font-size: 1rem;
+        }
+
+        .timer {
+          font-size: 2.5rem;
+        }
+
+        .question-text {
+          font-size: 1.2rem;
+        }
+
+        .options-container {
+          grid-template-columns: 1fr;
+        }
+
+        .option-btn {
+          font-size: 1rem;
+          padding: 10px;
+        }
+
+        .score {
+          font-size: 1.2rem;
+        }
+      }
+    </style>
+  </head>
+  <body onload="quiz_timer()">
+    <audio id="bgaudio" autoplay loop>
+      <source src="..\static\sounds\gamemusic.mp3" />
+    </audio>
+
+    <div class="quiz-container">
+      <header class="quiz-header">
+        <h1 class="quiz-title">QuizZania</h1>
+        <div class="user-name" id="uname">User: {{name}}</div>
+      </header>
+
+      <div class="timer-container">
+        <span id="timer" class="timer">30</span>
+      </div>
+
+      <div class="power-ups">
+        <button class="power-up-btn" id="fiffif" onclick="fifty()">
+          <img
+            src="..\static\images\fiffif.png"
+            alt="50:50"
+            width="60"
+            height="60"
+          />
+        </button>
+        <button class="power-up-btn" id="expert" onclick="expert()">
+          <img
+            src="..\static\images\expert.jpg"
+            alt="Expert"
+            width="60"
+            height="60"
+          />
+        </button>
+        <button class="power-up-btn" id="flip" onclick="flip()">
+          <img
+            src="..\static\images\flip.png"
+            alt="Flip Question"
+            width="60"
+            height="60"
+          />
+        </button>
+      </div>
+
+      <div class="quiz-content">
+        <div class="question-container">
+          <span id="n" class="question-number">Q{{numQues}}.</span>
+          <span class="question-text" id="q">{{quiz['question']}}</span>
+        </div>
+
+        <div class="options-container">
+          <button class="option-btn" onclick="checkIt('A')" id="A">
+            {{quiz['options']['A']}}
+          </button>
+          <button class="option-btn" onclick="checkIt('B')" id="B">
+            {{quiz['options']['B']}}
+          </button>
+          <button class="option-btn" onclick="checkIt('C')" id="C">
+            {{quiz['options']['C']}}
+          </button>
+          <button class="option-btn" onclick="checkIt('D')" id="D">
+            {{quiz['options']['D']}}
+          </button>
+        </div>
+
+        <button style="visibility: hidden" id="corr" value="{{quiz['answer']}}">
+          {{quiz['answer']}}
+        </button>
+      </div>
+
+      <footer class="quiz-footer">
+        <div class="score-container">
+          <span>Score:</span>
+          <span id="score" class="score">{{score}}</span>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Sound Effects -->
+    <audio id="corrSound" src="..\static\sounds\correct.mpeg"></audio>
+    <audio id="wrongSound" src="..\static\sounds\wrong.mpeg"></audio>
+    <audio id="timesup" src="..\static\sounds\timesup.mp3"></audio>
+
+    <script src="quiz.js"></script>
+    <!-- Add your JavaScript here -->
+  </body>
+  <script type="text/javascript">
+    function preventBack() {
+      window.history.forward();
+    }
+    setTimeout("preventBack()", 0);
+    // Set background audio volume
+    document.getElementById("bgaudio").volume = 0.5;
+
+    // Define URL variables for navigation
+    var myUrl =
+      "{{url_for('gmscreen', name=name, score=score, numQues=numQues, ex_uon=ex_uon, ff_uon=ff_uon, fl_uon=fl_uon)}}";
+    var resultUrl =
+      "{{url_for('result', name=name, score=score, exqu=ex_uon, ffqu=ff_uon, flqu=fl_uon)}}";
+
+    // Function to handle answer selection and check correctness
+    function checkIt(selectedOption) {
+      disableOptions();
+      // clearTimeout(breakTime);
+
+      var correctAnswer = document
+        .getElementById("corr")
+        .getAttribute("value")
+        .trim();
+      var userAnswer = selectedOption.trim();
+
+      console.log(correctAnswer, userAnswer);
+
+      if (userAnswer === correctAnswer) {
+        setTimeout(ChangeColor, 300, selectedOption);
+        setTimeout(ChangeColor2, 2500, selectedOption);
+      } else {
+        setTimeout(ChangeColor, 500, selectedOption);
+        setTimeout(ChangeColor3, 2500, selectedOption);
+      }
+    }
+
+    // Change option background color to orange (indicating selection)
+    function ChangeColor(option) {
+      document.getElementById(option).style.backgroundColor = "Orange";
+    }
+
+    // If correct, change background to green and play correct sound
+    function ChangeColor2(option) {
+      document.getElementById(option).style.backgroundColor = "#00FF00";
+      document.getElementById("corrSound").play();
+      setTimeout(Redirect, 2000);
+    }
+
+    // If wrong, change background to red, play wrong sound, and highlight correct option
+    function ChangeColor3(option) {
+      document.getElementById(option).style.backgroundColor = "Red";
+      document.getElementById("wrongSound").play();
+
+      // Highlight the correct answer after a brief delay
+      setTimeout(function () {
+        var correctOption = document
+          .getElementById("corr")
+          .getAttribute("value")
+          .trim()
+          .slice(-1);
+        document.getElementById(correctOption).style.backgroundColor =
+          "#00FF00";
+      }, 1000);
+
+      setTimeout(function () {
+        window.location.replace(resultUrl);
+      }, 3000);
+    }
+
+    // Redirect to the appropriate URL (next question or result page)
+    function Redirect() {
+      if ("{{ numQues }}" === "15") {
+        window.location.replace(resultUrl);
+      } else {
+        window.location.replace(myUrl);
+      }
+    }
+
+    // Function for using the "50:50" lifeline
+    function fifty() {
+      if ("{{ff_uon}}" === "ffun") {
+        var remainingOptions = 0;
+        var correctAnswer = document
+          .getElementById("corr")
+          .getAttribute("value")
+          .trim()
+          .slice(-1);
+
+        // Remove two incorrect options
+        for (var i = 1; i <= 3; i++) {
+          var option = String.fromCharCode(i + 64);
+          if (correctAnswer !== option && remainingOptions < 2) {
+            document.getElementById(option).innerHTML = "";
+            remainingOptions++;
+          }
+        }
+
+        // Update the URL with the used "50:50" lifeline
+        myUrl = myUrl.replace("{{ff_uon}}", "{{ numQues }}");
+      }
+
+      // Disable the 50:50 button
+      document.getElementById("fiffif").disabled = true;
+    }
+
+    // Disable all answer options
+
+    function disableOptions() {
+      ["A", "B", "C", "D"].forEach(function (option) {
+        document.getElementById(option).disabled = true;
+      });
+    }
+
+    // Function for using the "Expert" lifeline
+    function expert() {
+      if ("{{ex_uon}}" === "exun") {
+        var correctAnswer = document
+          .getElementById("corr")
+          .value.trim()
+          .slice(-1);
+
+        // Highlight the correct answer in purple
+        document.getElementById(correctAnswer).style.backgroundColor =
+          "#FF00F7";
+
+        // Update the URL with the used "Expert" lifeline
+        myUrl = myUrl.replace("{{ex_uon}}", "{{ numQues }}");
+      }
+
+      // Disable the Expert button
+      document.getElementById("expert").disabled = true;
+    }
+
+    // Function for using the "Flip" lifeline
+    function flip() {
+      if ("{{fl_uon}}" === "flun") {
+        myUrl = myUrl.replace("{{fl_uon}}", "{{ numQues }}");
+        window.location.replace(myUrl);
+      }
+
+      // Disable the Flip button
+      document.getElementById("flip").disabled = true;
+    }
+
+    // Timer function for the quiz countdown
+    function quiz_timer() {
+      var count = 30;
+      for (var i = 0; i <= 30; i++) {
+        print(count);
+        count--;
+      }
+    }
+
+    var i = -1;
+
+    // Function to update the timer and play sounds
+    function print(count) {
+      i++;
+      setTimeout(function () {
+        // Play times-up sound when there's 11 seconds left
+        if (count <= 11 && count > 0) {
+          setTimeout(function () {
+            document.getElementById("timesup").play();
+          }, 1000);
+        } else if (count == 0) {
+          setTimeout(() => window.location.replace(resultUrl), 2000);
+        }
+
+        document.getElementById("timer").innerHTML = count;
+      }, i * 1000);
+
+      // Change circle color to red after 20 seconds
+      setTimeout(function () {
+        document.getElementById("circle").style.stroke = "Red";
+      }, 20000);
+    }
+  </script>
+</html>

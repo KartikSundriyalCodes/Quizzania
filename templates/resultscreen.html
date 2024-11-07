@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <title>QuizZania - Result</title>
+    <style>
+      body {
+        background: linear-gradient(135deg, #3e1d71, #6935d1);
+        color: #f0f0f0;
+        font-family: "Poppins", sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        padding: 1rem;
+      }
+      .container {
+        background: #1c1c2b;
+        border-radius: 20px;
+        padding: 2rem;
+        max-width: 1000px;
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+      }
+      .header {
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+      .header h1 {
+        font-size: 2.5rem;
+        color: #e0e0e0;
+      }
+      .card {
+        background: #2a2a40;
+        border: none;
+        border-radius: 15px;
+        color: #f0f0f0;
+      }
+      .badge-level {
+        font-size: 1rem;
+        margin-top: 1rem;
+        padding: 0.5rem 1rem;
+        border-radius: 15px;
+      }
+      .lifeline-card {
+        background: #2a2a40;
+        border: none;
+        border-radius: 15px;
+      }
+      .lifeline-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1rem;
+      }
+      .iconim {
+        width: 50px;
+        height: 50px;
+        margin-right: 1rem;
+      }
+      .star-img {
+        width: 250px;
+        height: auto;
+        margin-bottom: 1rem;
+      }
+      .responsive-text {
+        font-size: 1.1rem;
+      }
+
+      .resultContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      @media (max-width: 768px) {
+        .header h1 {
+          font-size: 2rem;
+        }
+        .responsive-text {
+          font-size: 1rem;
+        }
+        .iconim {
+          width: 40px;
+          height: 40px;
+        }
+        .star-img {
+          width: 200px; /* Smaller size for mobile */
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>QuizZania - Result</h1>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 mb-4 resultContainer">
+          <div class="card p-4 text-center">
+            {% if score|int <= 400 %}
+            <img
+              src="../static/images/bronze.png"
+              alt="Bronze Level"
+              class="star-img"
+            />
+            <div class="badge bg-warning text-dark badge-level">
+              Your Level: Beginner 🙂
+            </div>
+            {% elif score|int < 1000 %}
+            <img
+              src="../static/images/silver.png"
+              alt="Silver Level"
+              class="star-img"
+            />
+            <div class="badge bg-secondary badge-level">
+              Your Level: Intermediate 😎
+            </div>
+            {% else %}
+            <img
+              src="../static/images/gold.png"
+              alt="Gold Level"
+              class="star-img"
+            />
+            <div class="badge bg-success badge-level">
+              Your Level: PRO ✨🤩✨
+            </div>
+            {% endif %}
+            <p class="responsive-text mt-3">
+              Name: {{name}} <br />
+              Score: {{score}}
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="card p-4 lifeline-card">
+            <h5 class="text-center mb-4">Lifeline Data</h5>
+            <div class="lifeline-item">
+              <img
+                src="../static/images/fiffif.png"
+                alt="50:50 Lifeline"
+                class="iconim"
+              />
+              <p>
+                {% if ffQuesUsed == "ffun" %} Not Used {% else %}
+                Question-{{ffQuesUsed}} {% endif %}
+              </p>
+            </div>
+            <div class="lifeline-item">
+              <img
+                src="../static/images/expert.jpg"
+                alt="Expert Lifeline"
+                class="iconim"
+              />
+              <p>
+                {% if exQuesUsed == "exun" %} Not Used {% else %}
+                Question-{{exQuesUsed}} {% endif %}
+              </p>
+            </div>
+            <div class="lifeline-item">
+              <img
+                src="../static/images/flip.png"
+                alt="Flip Lifeline"
+                class="iconim"
+              />
+              <p>
+                {% if flQuesUsed == "flun" %} Not Used {% else %}
+                Question-{{flQuesUsed}} {% endif %}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
